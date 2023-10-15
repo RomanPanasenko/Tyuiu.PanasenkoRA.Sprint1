@@ -10,10 +10,10 @@ namespace Tyuiu.PanasenkoRA.Sprint1.Task6.V0.Test
         [TestMethod]
         public void ValidString()
         {
-            string strTest = "Казак ехал на лошади";
+            string strTest = "казак";
             DataService ds = new DataService();
             string res = ds.CheckSymmetricalWords(strTest);
-            string wait = "Казак";
+            string wait = "казак";
             Assert.AreEqual(wait, res);
         }
     }

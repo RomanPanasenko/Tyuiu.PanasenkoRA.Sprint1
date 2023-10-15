@@ -11,7 +11,9 @@ namespace Tyuiu.PanasenkoRA.Sprint1.Task6.V0.Lib
     {
         public string CheckSymmetricalWords(string value)
         {
-            value = value.
+            throw new NotImplementedException();
         }
+
+        
     }
 }
